@@ -1,0 +1,31 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  // We use mysql from planetScale
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+  relationMode = "prisma"
+}
+
+// ? a "model" refers to a JavaScript or TypeScript representation of a database table or collection. 
+model Post {
+  // This make a unique id
+  id String @id @default(cuid())
+  createdAt DateTime @default(now())
+  updateAt DateTime @updatedAt
+  title String
+  category String
+  // @db.Text is for larger string text
+  content String @db.Text
+  author String
+  image String
+  snippet String @db.Text
+}
+
+

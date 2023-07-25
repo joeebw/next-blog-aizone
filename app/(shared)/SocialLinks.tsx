@@ -12,7 +12,7 @@ type Props = {
 
 const SocialLinks = ({ isDark = false }: Props) => {
   return (
-    <div className="flex items-center gap-6">
+    <div className="flex items-center justify-between gap-6">
       <a href="https://twitter.com" target="_blank">
         <Image
           alt="twitter"

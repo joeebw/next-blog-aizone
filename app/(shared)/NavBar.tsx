@@ -1,5 +1,8 @@
 import React from "react";
 import SocialLinks from "./SocialLinks";
+import Image from "next/image";
+import Ad1 from "../../public/assets/ad-1.jpg";
+import Link from "next/link";
 
 type Props = {};
 
@@ -12,7 +15,7 @@ const NavBar = (props: Props) => {
             <SocialLinks />
           </div>
           <div className="flex sm:translate-x-2/4 gap-6">
-            <span>Home</span>
+            <Link href={"/"}>Home</Link>
             <span>Trending</span>
             <span>About</span>
           </div>
@@ -25,7 +28,20 @@ const NavBar = (props: Props) => {
             Blog dedicated towards AI and generation and job automation
           </p>
         </div>
-        <div className="basis-full w-auto h-32 bg-wh-500">Image is here</div>
+        {/* // ? Here we use relative because the image componet when we use fill the position of the image component is absolute */}
+        <div className="relative basis-full w-auto h-32 bg-wh-500">
+          <Image
+            fill
+            alt="advert-1"
+            placeholder="blur"
+            src={Ad1}
+            sizes="(max-width: 480px) 100vw,
+                (max-width: 768px) 75vw,
+                (max-width: 1060px) 50vw,
+                33vw"
+            style={{ objectFit: "cover" }}
+          />
+        </div>
       </div>
       <hr className="border-1 w-11/12 mx-auto my-4 " />
     </header>
