@@ -2,7 +2,7 @@ import React from "react";
 import SocialLinks from "./SocialLinks";
 import Subscribe from "../(home)/Subscribe";
 import Image from "next/image";
-import Ad2 from "public/assets/ad-2.png";
+import Ad2 from "public/assets/ad-2.jpg";
 import AboutProfile from "public/assets/about-profile.jpg";
 
 type Props = {};
@@ -39,12 +39,10 @@ const SideBar = (props: Props) => {
           style={{ width: "500px", height: "250px", objectFit: "cover" }}
         />
       </div>
-      <h4 className="text-center my-3 text-wh-500 font-bold">
-        Geoffrey Epstein
-      </h4>
+      <h4 className="text-center my-3 text-wh-500 font-bold">Lila Rose</h4>
       <p className="text-wh-500 text-center text-sm">
-        Sit diam vel lacus tortor molestie amet tincidunt. Amet amet arcu sed
-        facilisi
+        AI and technology are not just tools, they are extensions of our minds
+        and hearts.
       </p>
     </div>
   );

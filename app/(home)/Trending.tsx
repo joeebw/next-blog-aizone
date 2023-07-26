@@ -14,8 +14,8 @@ const Trending = ({ trendingPosts }: Props) => {
           <span className="font-bold text-wh-10">TRENDING</span>
         </div>
         <p>
-          Nunc enim lobortis quam risus et feugiat nibh eu ornare. Molestie sit
-          nulla dolor diam turpis.
+          Discover the latest trends. Enter and browse the posts that match your
+          interests and preferences.
         </p>
       </div>
 
@@ -39,9 +39,8 @@ const Trending = ({ trendingPosts }: Props) => {
         />
       </div>
       <p className="text-sm mt-4">
-        Id cursus purus adipiscing ipsum pretium. Scelerisque suspendisse
-        pharetra ultrices mauris ut lacus sagittis pharetra dictum. Congue
-        viverra in aliquam feugiat pellentesque.
+        Here you will find news, trends, applications, ethics, and more about
+        this fascinating and fast-growing field.
       </p>
     </section>
   );

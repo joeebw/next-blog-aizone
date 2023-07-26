@@ -7,13 +7,16 @@ const Footer = (props: Props) => {
     <footer className="w-full bg-wh-900 py-10">
       <div className="sm:flex gap-16 w-11/12 mx-auto text-white">
         <div className="mt-16 sm:mt-0 basis-1/2">
-          <h4 className="font-bold">BLOG OF THE FUTURE</h4>
+          <h4 className="font-bold">BLOG AI ZONE</h4>
           <p className="my-5">
-            Lorem vitae ut augue auctor faucibus eget eget ut libero. Elementum
-            purus et arcu massa dictum condimentum. Augue scelerisque iaculis
-            orci ut habitant laoreet. Iaculis tristique.
+            Welcome to AI Zone, the blog that covers various topics related to
+            artificial intelligence. Here you will find news, trends,
+            applications, ethics, and more about this fascinating and
+            fast-growing field. Whether you are an AI enthusiast, a
+            professional, a student, or just curious, you will find something
+            interesting and useful here.
           </p>
-          <p>© Blog of the Future All Rights Reserved.</p>
+          <p>© Blog AI ZONE All Rights Reserved.</p>
         </div>
         <div className="mt-16 sm:mt-0 basis-1/4">
           <h4 className="font-bold">Links</h4>

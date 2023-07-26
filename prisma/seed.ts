@@ -1,6 +1,6 @@
 import { PrismaClient } from "@prisma/client";
 
-// ! Feed heres is to upload to the database the content in this for model Post
+// ! Feed here is to upload to the database the content in this for model Post
 // ! Here is the info for feed: https://www.prisma.io/docs/guides/migrate/seed-database
 
 const prisma = new PrismaClient();
@@ -218,7 +218,7 @@ const posts = [
   },
 ];
 
-// ? Seending our posts
+// ? Seending our posts and we need a npm commadn to do this
 const main = async () => {
   console.log("start seeding...");
   posts.forEach(async (post) => {
@@ -227,7 +227,7 @@ const main = async () => {
   console.log("seding finish");
 };
 
-// Here we are goinf to disconnect prisma to databse
+// Here we are going to disconnect prisma to databse
 main()
   .then(async () => {
     await prisma.$disconnect();

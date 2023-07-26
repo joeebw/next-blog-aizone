@@ -20,10 +20,13 @@ const getPost = async (id: string) => {
     return null;
   }
 
+  const imageModule = require(`../../../public${post.image}`);
+
   const formattedPost = {
     ...post,
     createdAt: post?.createdAt?.toISOString(),
     updateAt: post?.updateAt?.toISOString(),
+    image: imageModule.default,
   };
 
   return formattedPost;

@@ -23,7 +23,7 @@ const NavBar = (props: Props) => {
       </nav>
       <div className="flex w-11/12 mx-auto gap-8 mt-5 mb-4">
         <div className="basis-2/3 md:mt-3">
-          <h4 className="font-bold text-3xl md:text-6xl">Blog of the future</h4>
+          <h4 className="font-bold text-3xl md:text-6xl">Blog AI Zone</h4>
           <p className="mt-3">
             Blog dedicated towards AI and generation and job automation
           </p>
