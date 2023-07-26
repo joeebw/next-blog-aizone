@@ -7,6 +7,8 @@ import SideBar from "./(shared)/SideBar";
 import { prisma } from "./api/client";
 import { Post } from "@prisma/client";
 
+export const revalidate = 60;
+
 // ! In here I get from the database all the posts
 const getPost = async () => {
   // * FindMany find all the post in this case
