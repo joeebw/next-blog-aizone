@@ -6,7 +6,7 @@ type Props = {};
 
 const AboutContent = (props: Props) => {
   return (
-    <div className="prose prose-sm xl:prose-2xl text-wh-500 w-full max-w-full">
+    <div className="prose prose-sm xl:prose-2xl text-wh-500 w-full max-w-full leading-8">
       <h5 className="text-wh-300 mb-3">{`Home > About`}</h5>
       <h3 className="mb-[0.6em] mt-0 font-bold text-3xl">About AI blog</h3>
       <div className="flex gap-3">
