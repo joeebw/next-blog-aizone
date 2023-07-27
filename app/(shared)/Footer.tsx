@@ -9,12 +9,13 @@ const Footer = (props: Props) => {
         <div className="mt-16 sm:mt-0 basis-1/2">
           <h4 className="font-bold">BLOG AI ZONE</h4>
           <p className="my-5">
-            Welcome to AI Zone, the blog that covers various topics related to
-            artificial intelligence. Here you will find news, trends,
-            applications, ethics, and more about this fascinating and
-            fast-growing field. Whether you are an AI enthusiast, a
-            professional, a student, or just curious, you will find something
-            interesting and useful here.
+            Welcome to AI Zone, Welcome to our blog, where cutting-edge
+            technology meets captivating travel tales and the latest trends in
+            various domains! We take pride in presenting a unique blend of
+            AI-generated content created using the OpenAI API. Our goal is to
+            provide you with informative and engaging posts that cover a wide
+            range of topics, from tech breakthroughs to exciting travel
+            destinations and everything in between.
           </p>
           <p>© Blog AI ZONE All Rights Reserved.</p>
         </div>

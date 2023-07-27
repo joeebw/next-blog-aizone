@@ -35,9 +35,7 @@ const NavBar = () => {
       <div className="flex w-11/12 mx-auto gap-8 mt-5 mb-4">
         <div className="basis-2/3 md:mt-3">
           <h4 className="font-bold text-3xl md:text-6xl">Blog AI Zone</h4>
-          <p className="mt-3">
-            Blog mejorado con IA: Exploración de un mosaico de temas
-          </p>
+          <p className="mt-3">AI-enhanced blog: Exploring a mosaic of topics</p>
         </div>
         {/* // ? Here we use relative because the image componet when we use fill the position of the image component is absolute */}
         <div className="relative basis-full w-auto h-32 bg-wh-500">
